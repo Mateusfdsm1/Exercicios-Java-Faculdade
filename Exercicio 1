@@ -4,11 +4,11 @@ public class Exercicios1 {
     public static void main(String[] args) {
         double dolares, real, convert;
         
-        dolares = Double.parseDouble(JOptionPane.showInputDialog("Digite o primeiro valor:"));
+        dolares = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor em dolar:"));
         real = 5.13;
         convert = dolares / real;
         
-        System.out.println(convert);
+        System.out.println("O valor em reais é R$" + convert + ",00 ");
         
     }
 }
