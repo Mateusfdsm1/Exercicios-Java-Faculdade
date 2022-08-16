@@ -1,3 +1,5 @@
+    /* Ler um valor inteiro e exibir seu antecessor.
+    
     import javax.swing.JOptionPane;
     public class Exercicios1 {
     public static void main(String[] args) {
