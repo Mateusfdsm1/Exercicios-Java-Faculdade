@@ -8,7 +8,7 @@ public class Exercicios1 {
         real = 5.13;
         convert = dolares / real;
         
-        System.out.println("O valor em reais é R$" + convert + ",00 ");
+        System.out.println("O valor em reais é R$" + convert);
         
     }
 }
