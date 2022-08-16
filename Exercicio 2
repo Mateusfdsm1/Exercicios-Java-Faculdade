@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+public class Exercicios1 {
+
+    public static void main(String[] args) {
+          double a, b, c, d, a2, b2, c2, d2, result;
+          a = Double.parseDouble(JOptionPane.showInputDialog("Numero 1"));
+          b = Double.parseDouble(JOptionPane.showInputDialog("Numero 2"));
+          c = Double.parseDouble(JOptionPane.showInputDialog("Numero 3"));
+          d = Double.parseDouble(JOptionPane.showInputDialog("Numero 4"));
+          
+          a2 = a * a;
+          b2 = b * b;
+          c2 = c * c;
+          d2 = d * d;
+          
+          result = a2 + b2 + c2 + d2;
+          System.out.println("A soma de todos é " + result);
+    }
+}
