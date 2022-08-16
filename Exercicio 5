@@ -1,0 +1,13 @@
+// Ler as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo.
+
+import javax.swing.JOptionPane;
+public class Exercicios1 {
+
+    public static void main(String[] args) {
+        int base, altura, area;
+        base = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor da base do retangulo"));
+        altura = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor da altura do retangulo"));
+        area = base * altura;
+        System.out.println("A área do retangulo é " + area);
+    }
+}
