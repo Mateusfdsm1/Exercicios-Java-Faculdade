@@ -1,0 +1,16 @@
+    import javax.swing.JOptionPane;
+    public class Exercicios1 {
+    public static void main(String[] args) {
+        
+        double preco, total, comissao, quantidade;
+        
+        preco = Double.parseDouble(JOptionPane.showInputDialog("Digite o preço da peça"));
+        quantidade = Double.parseDouble(JOptionPane.showInputDialog("Digite a quantidade da peça"));
+        
+        total = quantidade * preco;
+        comissao = 0.05 * total;
+        
+        System.out.println("Comissao total do vendedor = " + comissao);
+        
+    }
+}
