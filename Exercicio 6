@@ -1,0 +1,13 @@
+// Ler a idade de uma pessoa expressa em anos e exibir expressa emdias (considere que um ano tem 365 dias.)
+
+import javax.swing.JOptionPane;
+public class Exercicios1 {
+
+    public static void main(String[] args) {
+          int idade, dias;          
+          idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
+          dias = 365 * idade;
+          System.out.println("Você viveu: " + dias + " dias");
+          
+    }
+}
