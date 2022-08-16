@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+public class Exercicios1 {
+
+    public static void main(String[] args) {
+        double dolares, real, convert;
+        
+        dolares = Double.parseDouble(JOptionPane.showInputDialog("Digite o primeiro valor:"));
+        real = 5.13;
+        convert = dolares / real;
+        
+        System.out.println(convert);
+        
+    }
+}
