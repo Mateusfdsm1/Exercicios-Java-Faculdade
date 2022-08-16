@@ -1,4 +1,4 @@
-/*Ler 4 números, calcular o quadrado para cada um, somar todos os quadradosemostraroresultado.
+//Ler 4 números, calcular o quadrado para cada um, somar todos os quadrado e mostrar o resultado.
 
 import javax.swing.JOptionPane;
 public class Exercicios1 {
