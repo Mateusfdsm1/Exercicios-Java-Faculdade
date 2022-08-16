@@ -1,0 +1,20 @@
+/*Ler a idade de uma pessoa expressa em anos, meses e dias e exibir a idade dessa pessoa expressa apenas em dias. 
+*Considerar ano com 365 dias e mês com 30 dias.
+*/
+
+import javax.swing.JOptionPane;
+public class Exercicios1 {
+
+    public static void main(String[] args) {
+       int idadeDias, ano, mes, dias, ano1, mes1;
+       ano = Integer.parseInt(JOptionPane.showInputDialog("Informe sua idade: "));
+       mes = Integer.parseInt(JOptionPane.showInputDialog("Informe o mes atual do calendario: "));
+       dias = Integer.parseInt(JOptionPane.showInputDialog("Informe o dia atual do calendario: "));
+       
+       ano1 = ano * 365;
+       mes1 = (mes * 30 - 30) + dias ; 
+       idadeDias = ano1 + mes1 + dias;
+       
+       System.out.println("Sua idade, mes e dia, convertido em dias é igual a: " + idadeDias);
+    }
+}
