@@ -1,0 +1,24 @@
+    //Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, 
+    //mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas. Ler o número de carros por ele vendidos, 
+    //o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcular e exibir o salário final do vendedor
+    
+    import javax.swing.JOptionPane;
+    public class Exercicios1 {
+    public static void main(String[] args) {
+            double salarioFixo, totalVendas, comFixa, valorCarro, salarioTotal; 
+            int numCarros;        
+            salarioFixo = Double.parseDouble(JOptionPane.showInputDialog("Digite seu salario fixo mensal: "));
+            comFixa = Double.parseDouble(JOptionPane.showInputDialog("Digite a comissao fixa por carro vendido: "));
+            numCarros = Integer.parseInt(JOptionPane.showInputDialog("Digite o numero de carros vendidos: "));
+            totalVendas = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor total das vendas: "));
+            
+            
+            comFixa = numCarros + comFixa;
+            valorCarro = (totalVendas * 0.5) / numCarros;
+            
+            salarioTotal = salarioFixo + comFixa + numCarros + valorCarro;
+            
+            System.out.println("Salario total é de: " + salarioTotal);
+         
+          }
+   } 
