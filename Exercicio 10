@@ -1,0 +1,16 @@
+   //O custo de um carro novo ao consumidor é a soma do custo de fábrica coma porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). 
+   //Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor
+    
+    import javax.swing.JOptionPane;
+    public class Exercicios1 {
+    public static void main(String[] args) {
+            double valorCarro, custoFabrica, percDistribuidor, impostos;
+            custoFabrica = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do carro "));  
+            percDistribuidor = (custoFabrica * 28)/100;
+            impostos = (custoFabrica * 45) / 100;
+            valorCarro = custoFabrica + percDistribuidor + impostos;
+            
+            System.out.println("O valor final do carro é de: R$ " + valorCarro );
+
+          }
+   } 
